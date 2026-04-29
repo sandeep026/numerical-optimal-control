@@ -48,6 +48,9 @@ $$
 The sample codes demonstrate direct methods [^2], a class of methods used to solve optimal control problems numerically. The time domain, objective functional and the constraints are discretized and transformed to a nonlinear optimization problem. The solution of the optimization problem comprise the optimal discrete state and control vector.
 
 ### Numerical methods implemented
+
+#### MATLAB/Octave
+
 |method|control parameterization|files|
 |-|-|-|
 |trapezoidal piecewise | piecewise constant control|```trapezoidal_constant.m```|
@@ -55,6 +58,9 @@ The sample codes demonstrate direct methods [^2], a class of methods used to sol
 |Runge Kutta 4 (single shooting) | piecewise constant control|```single_shooting.m```|
 |Runge Kutta 4 (multiple shooting) | piecewise constant control|```multiple_shooting.m```|
 |Legendre Gauss Lobatto [^3]|global polynomial|```LGL pseudospectral.m, legslb.m, legslbdiff.m, lepoly.m, lepolym.m```|
+
+#### Python
+All numerical methods in `directmethods.py`
 
 ## Results
 
