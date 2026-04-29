@@ -1,6 +1,7 @@
 ## Cart System: Optimal Control Benchmark
 
 This repository explores the optimal control of a cart system subject to drag [^1]. It provides a comprehensive comparison between the analytical solution (derived via Pontryagin's Minimum Principle) and various numerical direct methods, including shooting, collocation and pseudospectral techniques.
+IPOPT is used for numerical optimization.
 
 ### Implementation & Requirements
 The code is available for both MATLAB/Octave and Python.
